@@ -1,0 +1,80 @@
+body
+{
+   background: url("../../images/bodybck.jpg") fixed;
+}
+
+#header a
+{
+   color: white;
+}
+
+#jumbotron
+{
+  background: url("../../images/bck1.jpg");
+}
+
+#jumbotron h1, #jumbotron p
+{
+   color: white;
+   font-weight: bold;
+}
+
+#jumbotron img
+{
+   border-radius: 50px;
+}
+
+#jumbotron img, h1,p
+{
+   margin: 20px 30px;
+}
+
+h1,h2,p,a,h3, #info li, #contacts li, h4
+{
+   color: black;
+   font-weight: bold;
+}
+
+ul
+{
+   list-style: none;
+}
+
+.well
+{
+   background-color: pink;
+   border-color: black;
+   border-style: dashed;
+}
+
+
+#footer
+{
+   padding: 50px 0px;
+}
+
+#footer i
+{
+   margin-top: 10px;
+   width:50px;
+}
+
+.connect
+{
+   margin-top: 0;
+}
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
